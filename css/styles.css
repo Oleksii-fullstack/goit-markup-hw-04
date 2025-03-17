@@ -327,7 +327,8 @@ body {
 }
 
 .team .container {
-    
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-title {
@@ -408,6 +409,11 @@ body {
 .team-social-icon {
     fill: #f4f4fd;
 }
+
+.social-icon-svg {
+    fill: #f4f4fd;
+}
+
 
 .team-subtitle {
         font-weight: 500;
@@ -492,7 +498,7 @@ body {
 }
 
 .portfolio-list-item:hover .overlay-text {
-    transform: translateY(0);
+    transform: translateY(0%);
     cursor: pointer;
     height: 300px;
     
@@ -579,7 +585,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color var(--animation);
+    
 }
 
 .footer-social-container {
@@ -603,6 +609,7 @@ body {
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color var(--animation);
 }
 
 .footer-social-link:hover,
