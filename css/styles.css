@@ -364,8 +364,8 @@ body {
 .team-container {
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
+    justify-items: center;
+    align-items: center;
 }
 
 .team-container-list {
@@ -489,10 +489,7 @@ body {
     background-color: #4d5ae5;
     width: 100%;
     height: 100%;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 40px;
-    padding-bottom: 164px;
+    padding: 40px 32px;
     transform: translateY(100%);
     transition: transform var(--animation);
 }
